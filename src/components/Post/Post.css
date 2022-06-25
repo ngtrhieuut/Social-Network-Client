@@ -1,0 +1,38 @@
+.Post {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--cardColor);
+    background-origin: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.Post>img {
+    width: 100%;
+    max-height: auto;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.detail {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.detail>img,
+.detail>span {
+    margin: 0.25rem;
+}
+
+.postReact {
+    display: flex;
+    align-items: flex-end;
+    gap: 1.5rem;
+}
+
+.followerImagePost {
+    width: 2rem;
+    border-radius: 50%;
+}
